@@ -230,3 +230,98 @@ footer a:hover {
     color: var(--orange-vif);
     transform: translate(-3px);
 }
+
+/* Styles pour la page Contact */
+.contact-container {
+    max-width: 1000px;
+    margin: 6rem auto;
+    padding: 0 2rem;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+}
+
+.contact-info, .contact-form {
+    flex: 1;
+    min-width: 300px;
+    background-color: #FFF;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.contact-info h3 {
+    color: var(--violet-doux);
+    margin-bottom: 1.5rem;
+}
+
+.apps-links {
+    margin-top: 1.5rem;
+}
+
+.apps-links a {
+    display: block;
+    text-decoration: none;
+    color: var(--Gris-tres-fonce);
+    margin-bottom: 10px;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.apps-links a i {
+    margin-right: 10px;
+    color: var(--violet-doux);
+    font-size: 1.4rem;
+}
+
+.apps-links a:hover {
+    color: var(--violet-doux);
+}
+
+/* Formulaire */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: var(--Gris-fonce);
+    font-weight: 600;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid var(--Gris-clair);
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus {
+    border-color: var(--violet-doux);
+}
+
+.btn-submit {
+    background-color: var(--violet-doux);
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s, transform 0.2s;
+    width: 100%;
+}
+
+.btn-submit:hover {
+    background-color: var(--violet-fonce);
+    transform: translateY(-2px);
+}
