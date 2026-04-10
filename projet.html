@@ -10,183 +10,129 @@
   <header>
     <div>
       <a href="">Mon Portfolio</a>
+      <link rel="stylesheet" href="CSS/style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </div>
     <nav>
       <ul>
-        <li> <a href="index.html" class=active>Acceuil</a></li>
-        <li> <a href="projet.html"class="active">Projets</a></li>
-        <li> <a href="passion.html">Passion</a></li>
-        <li> <a href="divertissement.html>Divertissement</a></li>
-        <li> <a href="contact.html">Contact</a></li>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="Projet.html"class="active">Projets</a></li>
+        <li><a href="Passion.html">Passions</a></li>
+        <li><a href="Divertissement.html">Divertissement</a></li>
+        <li><a href="Contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
- <main>
-  <section class="creation">
-    
-    <h2>Mes realisations</h2>
+  <main class="project-page">
+    <section class="project-intro">
+        <h1>Mes Réalisations</h1>
+        <p>Découvrez mes travaux les plus récents, alliant technique et esthétique.</p>
+    </section>
 
-    <div class="conteneur">
-         <article class="article">
+    <div class="project-container">
+        <div class="project-box">
+            <img src="https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&w=800&q=80" alt="E-commerce">
+            <div class="project-layer">
+                <div class="layer-content">
+                    <span class="p-category">E-Commerce</span>
+                    <h3>L'shi Market</h3>
+                    <p>Une boutique en ligne moderne pour les artisans locaux.</p>
+                    <div class="p-tech">#Laravel #Stripe #Tailwind</div>
+                    <div class="p-links">
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-          <img src="" alt="Image E-commerce">
-           
-          <div class="contenant">
-             <h3>Site E-commerce</h3>
+        <div class="project-box">
+          <img src="https://images.unsplash.com/photo-1551288049-bb8c803bd746?auto=format&fit=crop&q=80&w=800" alt="Data Analytics Dashboard"><div class="project-layer">
+                <div class="layer-content">
+                    <span class="p-category">Intelligence Artificielle</span>
+                    <h3>DataVision IA</h3>
+                    <p>Analyse prédictive de données via des modèles de ML.</p>
+                    <div class="p-tech">#Python #React #Flask</div>
+                    <div class="p-links">
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-             <p>Une boutique en ligne developpé avec HTML, CSS et JavaScript pur</p>
-             <div class="tag">
+        <div class="project-box">
+          <img src="https://images.unsplash.com/photo-1504813184591-01592fd039e5?auto=format&fit=crop&q=80&w=800" alt="Medical Technology"><div class="project-layer">
+                <div class="layer-content">
+                    <span class="p-category">Santé</span>
+                    <h3>MedLink</h3>
+                    <p>Gestion de rendez-vous médicaux pour cliniques privées.</p>
+                    <div class="p-tech">#NodeJS #MongoDB #Vue</div>
+                    <div class="p-links">
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-              <span>HTML</span>
-              <span>CSS</span>
-              <span>JavaScript</span>
+        <div class="project-box">
+            <img src="https://images.unsplash.com/photo-1452784444945-3f422708fe5e?auto=format&fit=crop&w=800&q=80" alt="Photography">
+            <div class="project-layer">
+                <div class="layer-content">
+                    <span class="p-category">Design</span>
+                    <h3>Focus Gallery</h3>
+                    <p>Portfolio immersif pour photographes professionnels.</p>
+                    <div class="p-tech">#GSAP #ThreeJS #CSS3</div>
+                    <div class="p-links">
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-             </div>
-             <div class="lien">
-              <a href=""><i class="fab fa-github"> </i>Code</a>
-              <a href=""><i class="fas fa-external-link-alt"></i>Démo</a>
-             </div>
-          </div>              
+        <div class="project-box">
+            <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=800&q=80" alt="Real Estate">
+            <div class="project-layer">
+                <div class="layer-content">
+                    <span class="p-category">Immobilier</span>
+                    <h3>L'shi Immo</h3>
+                    <p>Système de recherche et location d'appartements.</p>
+                    <div class="p-tech">#PHP #SQL #JavaScript</div>
+                    <div class="p-links">
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        </article>
-      
-        <article class="article">
-
-          <img src="" alt="">
-           
-          <div class="contenant">
-             <h3>Site E-commerce</h3>
-
-             <p>Une boutique en ligne developpé avec HTML, CSS et JavaScript pur</p>
-             <div class="tag">
-              <span>Python</span>
-              <span>Flask</span>
-
-             </div>
-             <div class="lien">
-              <a href=""><i class="fab fa-github"> </i>Code</a>
-              <a href=""><i class="fas fa-external-link-alt"></i>Démo</a>
-             </div>
-          </div>              
-
-         </article>
-
-         <article class="article">
-
-          <img src="" alt="">
-           
-          <div class="contenant">
-             <h3>Site E-commerce</h3>
-
-             <p>Une boutique en ligne developpé avec HTML, CSS et JavaScript pur</p>
-             <div class="tag">
-              <span>Python</span>
-              <span>Flask</span>
-
-             </div>
-             <div class="lien">
-              <a href=""><i class="fab fa-github"> </i>Code</a>
-              <a href=""><i class="fas fa-external-link-alt"></i>Démo</a>
-             </div>
-          </div>              
-
-         </article>
-         
-         <article class="article">
-
-          <img src="" alt="">
-           
-          <div class="contenant">
-             <h3>Site E-commerce</h3>
-
-             <p>Une boutique en ligne developpé avec HTML, CSS et JavaScript pur</p>
-             <div class="tag">
-              <span>Python</span>
-              <span>Flask</span>
-
-             </div>
-             <div class="lien">
-              <a href=""><i class="fab fa-github"> </i>Code</a>
-              <a href=""><i class="fas fa-external-link-alt"></i>Démo</a>
-             </div>
-          </div>              
-
-         </article> 
-
-         <article class="article">
-
-          <img src="" alt="">
-           
-          <div class="contenant">
-             <h3>Site E-commerce</h3>
-
-             <p>Une boutique en ligne developpé avec HTML, CSS et JavaScript pur</p>
-             <div class="tag">
-              <span>Python</span>
-              <span>Flask</span>
-
-             </div>
-             <div class="lien">
-              <a href=""><i class="fab fa-github"> </i>Code</a>
-              <a href=""><i class="fas fa-external-link-alt"></i>Démo</a>
-             </div>
-          </div>              
-
-         </article>
-
-         <article class="article">
-
-          <img src="" alt="">
-           
-          <div class="contenant">
-             <h3>Site E-commerce</h3>
-
-             <p>Une boutique en ligne developpé avec HTML, CSS et JavaScript pur</p>
-             <div class="tag">
-              <span>Python</span>
-              <span>Flask</span>
-
-             </div>
-             <div class="lien">
-              <a href=""><i class="fab fa-github"> </i>Code</a>
-              <a href=""><i class="fas fa-external-link-alt"></i>Démo</a>
-             </div>
-          </div>              
-
-         </article> 
-
-         <article class="article">
-
-          <img src="" alt="">
-           
-          <div class="contenant">
-             <h3>Site E-commerce</h3>
-
-             <p>Une boutique en ligne developpé avec HTML, CSS et JavaScript pur</p>
-             <div class="tag">
-              <span>Python</span>
-              <span>Flask</span>
-
-             </div>
-             <div class="lien">
-              <a href=""><i class="fab fa-github"> </i>Code</a>
-              <a href=""><i class="fas fa-external-link-alt"></i>Démo</a>
-             </div>
-          </div>              
-
-         </article> 
+        <div class="project-box">
+            <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80" alt="Fitness">
+            <div class="project-layer">
+                <div class="layer-content">
+                    <span class="p-category">Sport</span>
+                    <h3>StrongTrack</h3>
+                    <p>Application mobile de suivi de performance athlétique.</p>
+                    <div class="p-tech">#ReactNative #Firebase</div>
+                    <div class="p-links">
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-
-  </section>  
-
- </main>
-  <footer>
-
-    <p>2026 Matador. Tous droits reservés</p>
-    <img src="Image/images(3).jpg" alt="1" width="30">
-    <img src="Image/images(4).jpg" alt="2" width="30">
-    <img src="Image/images(5).jpg" alt="3" width="30">
-
-  </footer>
+</main>
+ <footer>
+  <p>© 2026 Matador. Tous droits réservés.</p>
+  <a href=""><i class="fa-brands fa-github"></i></a>
+  <a href=""><i class="fa-brands fa-linkedin"></i></a>
+  <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+</footer>
 </body>
 </html>

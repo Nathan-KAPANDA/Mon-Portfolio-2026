@@ -10,26 +10,76 @@
   <header>
     <div>
       <a href="">Mon Portfolio</a>
+      <link rel="stylesheet" href="CSS/style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </div>
     <nav>
       <ul>
-        <li> <a href="index.html" class=active>Acceuil</a></li>
-        <li> <a href="projet.html">Projets</a></li>
-        <li> <a href="passion.html"class="active">Passion</a></li>
-        <li> <a href="divertissement.html>Divertissement</a></li>
-        <li> <a href="contact.html">Contact</a></li>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="Projet.html">Projets</a></li>
+        <li><a href="Passion.html"class="active">Passions</a></li>
+        <li><a href="Divertissement.html">Divertissement</a></li>
+        <li><a href="Contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
- <main>
-    <h1>Mes passions</h1>
- </main>
-  <footer>
-    <p>2026 Matador. Tous droits reservés</p>
-    <img src="Image/images(3).jpg" alt="1" width="30">
-    <img src="Image/images(4).jpg" alt="2" width="30">
-    <img src="Image/images(5).jpg" alt="3" width="30">
+  <main class="passion-vertical-main">
+    <header class="passion-intro-v reveal">
+        <h1>Mes Passions</h1>
+        <p>Découvrez ce qui m'anime au quotidien</p>
+        <div class="scroll-indicator"></div>
+    </header>
 
-  </footer>
+    <section class="passion-step">
+        <div class="passion-v-content">
+            <div class="v-text reveal">
+                <span class="v-number">01</span>
+                <h2>Architecture Logicielle</h2>
+                <p>Concevoir des systèmes robustes est pour moi une quête de structure. J'aime l'élégance d'un code bien organisé et scalable.</p>
+                <div class="v-tech-tags">#Laravel #CleanCode #DesignPatterns</div>
+            </div>
+            <div class="v-image reveal delay-1">
+                <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=800&q=80" alt="Architecture">
+            </div>
+        </div>
+    </section>
+
+    <section class="passion-step reverse">
+        <div class="passion-v-content">
+            <div class="v-text reveal">
+                <span class="v-number">02</span>
+                <h2>UI/UX Design</h2>
+                <p>Le design ne se limite pas à l'esthétique, c'est une question de ressenti. Je crée des interfaces qui facilitent l'interaction humaine.</p>
+                <div class="v-tech-tags">#Figma #UserCentric #Minimalism</div>
+            </div>
+            <div class="v-image reveal delay-1">
+              <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=800&q=80" alt="UI UX Design">
+            </div>
+        </div>
+    </section>
+
+    <section class="passion-step">
+        <div class="passion-v-content">
+            <div class="v-text reveal">
+                <span class="v-number">03</span>
+                <h2>Intelligence Artificielle</h2>
+                <p>L'IA est le moteur de l'innovation future. Je m'intéresse particulièrement à l'automatisation intelligente des tâches complexes.</p>
+                <div class="v-tech-tags">#MachineLearning #Automation #FutureTech</div>
+            </div>
+            <div class="v-image reveal delay-1">
+                <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=800&q=80" alt="IA">
+            </div>
+        </div>
+    </section>
+</main>
+ <footer>
+  <p>© 2026 Matador. Tous droits réservés.</p>
+  <a href=""><i class="fa-brands fa-github"></i></a>
+  <a href=""><i class="fa-brands fa-linkedin"></i></a>
+  <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+</footer>
 </body>
 </html>

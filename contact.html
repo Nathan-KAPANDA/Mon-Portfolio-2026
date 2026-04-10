@@ -10,59 +10,66 @@
   <header>
     <div>
       <a href="">Mon Portfolio</a>
+      <link rel="stylesheet" href="CSS/style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </div>
     <nav>
       <ul>
-        <li> <a href="index.html" class=active>Acceuil</a></li>
-        <li> <a href="projet.html"class="active">Projets</a></li>
-        <li> <a href="passion.html">Passion</a></li>
-        <li> <a href="divertissement.html">Divertissement</a></li>
-        <li> <a href="contact.html">Contact</a></li>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="Projet.html">Projets</a></li>
+        <li><a href="Passion.html">Passions</a></li>
+        <li><a href="Divertissement.html">Divertissement</a></li>
+        <li><a href="Contact.html"class="active">Contact</a></li>
       </ul>
     </nav>
   </header>
-  <main>
-    
-    <section class="contact-container">
-      <h2>Me Contacter</h2>
-      
-      <div class="contact-content">
+  <main class="contact-main">
+    <div class="contact-container">
+        
         <div class="contact-info">
-          <h3>Mes coordonnées</h3>
-          <p>Je suis basé à <strong>Lubumbashi</strong>.</p>
-          <div class="social-links-contact">
+            <h2>Me Contacter</h2>
+            <p><i class="fa-solid fa-location-dot"></i> Basé à Lubumbashi, RDC</p>
             <p><i class="fa-solid fa-phone"></i> +243 975046500</p>
-            <div class="apps-links">
-              <a href="https://wa.me/243975046500" target="_blank"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
-              <a href="https://t.me/243975046500" target="_blank"><i class="fa-brands fa-telegram"></i> Telegram</a>
+            
+            <div class="direct-links">
+                <a href="https://wa.me/243975046500" target="_blank" class="btn-wa">
+                    <i class="fa-brands fa-whatsapp"></i> WhatsApp
+                </a>
+                <a href="https://t.me/243975046500" target="_blank" class="btn-tg">
+                    <i class="fa-brands fa-telegram"></i> Telegram
+                </a>
             </div>
-          </div>
         </div>
 
-        <div class="contact-form">
-          <form action="#">
-            <div class="form-group">
-              <label for="name">Nom</label>
-              <input type="text" id="name" name="name" placeholder="Votre nom" required>
-            </div>
-            <div class="form-group">
-              <label for="phone">Téléphone</label>
-              <input type="tel" id="phone" name="phone" placeholder="Votre numéro de téléphone" required>
-            </div>
-            <button type="submit" class="btn-submit">Envoyer</button>
-          </form>
+        <div class="contact-form-box">
+            <form action="#">
+                <div class="input-group">
+                    <label for="name">Nom complet</label>
+                    <input type="text" id="name" name="name" placeholder="Ex: Nathan Matador" required>
+                </div>
+                
+                <div class="input-group">
+                    <label for="phone">Téléphone</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Ex: +243..." required>
+                </div>
+
+                <button type="submit" class="send-btn">
+                    Envoyer le message <i class="fa-solid fa-paper-plane"></i>
+                </button>
+            </form>
         </div>
-      </div>
-    </section>
-  </main>
-    <h1>Contactez-nous</h1>
+
+    </div>
+</main>
  
-  <footer>
-    <p>2026 Matador. Tous droits reservés</p>
-    <img src="Image/images(3).jpg" alt="1" width="30">
-    <img src="Image/images(4).jpg" alt="2" width="30">
-    <img src="Image/images(5).jpg" alt="3" width="30">
-
-  </footer>
+    <footer>
+      <p>© 2026 Matador. Tous droits réservés.</p>
+      <a href=""><i class="fa-brands fa-github"></i></a>
+      <a href=""><i class="fa-brands fa-linkedin"></i></a>
+      <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+    </footer>
 </body>
 </html>
